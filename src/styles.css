@@ -36,10 +36,14 @@ nav{
     display: flex;
     justify-content: space-around;
     font-size: 10px;
+
 }
 .skill-list{
     text-align: center;
     margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+
 }
 ul{
     display: flex;
