@@ -32,6 +32,15 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+.skills-panel{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.skill-list{
+    text-align: center;
+    margin-top: 60px;
+}
 ul{
     display: flex;
     list-style-type: none;
