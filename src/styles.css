@@ -9,6 +9,10 @@ section {
 .hero{
     background-color: #1c1d25;
     background-image: url("images/frequency.png");
+
+    background-size:cover;
+    background-position:center;
+
     height: 100vh;
     color: white;
     font-size: 40px;
