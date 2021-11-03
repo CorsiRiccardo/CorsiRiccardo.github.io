@@ -172,7 +172,7 @@ a{
         margin: 20px;
         align-self: flex-end;
     }
-    ul{
+    .nav-ul{
         display: none;
         background-color: #2b2c38;
         margin: 0px;
