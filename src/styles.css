@@ -8,6 +8,7 @@ section {
 
 .hero{
     background-color: #1c1d25;
+    background-image: url("images/frequency.png");
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -162,6 +163,14 @@ a{
 }
 .hamburger:focus{
    outline: 0;
+}
+.background-music{
+    margin: 30px;
+}
+.video{
+    width: 300px;
+    height: 150px;
+    alignment: center;
 }
 @media only screen and (max-width: 1000px) {
     .hamburger{
