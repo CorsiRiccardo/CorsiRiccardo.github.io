@@ -31,7 +31,7 @@ footer{
     background-color: black;
     text-align: center;
     color: white;
-    padding: 80px;
+    padding: 100px;
 }
 
 nav{
@@ -112,16 +112,20 @@ p{
 .sub-section{
     display: flex;
     justify-content: space-around;
-    padding: 80px;
+    padding: 100px;
+    padding-top: 100px; /* Increase padding above each section */
+    padding-bottom: 100px; /* Increase padding below each section */
 }
 .sub-section-alternative{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 80px;
+    padding: 100px;
+    padding-top: 100px; /* Increase padding above each section */
+    padding-bottom: 100px; /* Increase padding below each section */
 }
 .headshot{
-    width: 300px;
+    width: 400px;
     border-radius: 150px;
 }
 .headshot-container{
@@ -132,6 +136,12 @@ p{
 .project-card{
     width: 300px;
     height: 500px;
+    box-shadow: 5px 5px 20px #c1bfbf;
+    margin: 10px;
+}
+.experience-card{
+    width: 300px;
+    height: 200px;
     box-shadow: 5px 5px 20px #c1bfbf;
     margin: 10px;
 }
@@ -149,6 +159,11 @@ p{
     margin-top: 25px;
     width: 250px;
     border-radius: 125px;
+}
+.experience-image{
+    margin-top: 25px;
+    width: 300px;
+    align-self: center;
 }
 hr{
     margin-left: 20px;
